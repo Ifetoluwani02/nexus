@@ -1,0 +1,61 @@
+.notifications-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.notifications-container h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.notifications-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notifications-container li {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.notifications-container li.unread {
+  background-color: #ecf6fd;
+  border-left: 4px solid #3498db;
+}
+
+.notifications-container li.read {
+  background-color: #f9f9f9;
+}
+
+.notifications-container li p {
+  margin: 5px 0;
+}
+
+.notifications-container .timestamp {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.notifications-container button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.notifications-container button:hover {
+  background-color: #2980b9;
+}

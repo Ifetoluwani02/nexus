@@ -1,0 +1,39 @@
+.transactions-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .transactions-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transactions-container li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .transactions-container li p {
+    margin: 5px 0;
+  }
+  
+  .transactions-container .loading {
+    text-align: center;
+  }
+  
+  .transactions-container .no-transactions {
+    text-align: center;
+    color: #888;
+  }
